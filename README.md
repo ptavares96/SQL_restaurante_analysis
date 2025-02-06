@@ -32,6 +32,10 @@ Este repositório está organizado da seguinte maneira:
 │   ├── restaurant_db_data_dictionary.csv   # Descrição dos dados
 │
 ├── csvs/                                   # CSVs exportados das consultas
+│   ├── valor_gasto_de_cada_cliente.csv     # Dados dos valores gastos por cada cliente 
+│   ├── total_pedidos_de_cada_cliente.csv   # Total de pedidos de cada cliente
+│   ├── faturamento_por_pratos.csv          # Faturamento obtido pela venda de cada item do menu
+│   ├── dia_performance.csv                 # Perffomance diária considerando a média de vendas
 │
 ├── Consultas/                              # Pasta com as consultas SQL
 │   ├── Input and table creation.sql        # Criação da base de dados, tabelas
@@ -42,7 +46,7 @@ Este repositório está organizado da seguinte maneira:
 │   ├── menu_questionss.sql                 # Consulta sobre os items vendidos
 │   ├── sale_questionss.sql                 # Consulta sobre vendas do restaurante
 │  
-└── Análise/                                # Pasta com o texto de análise
+└── analise.md                              # Arquivo de texto com a análise dos dados
 ```
 
 ## Metologia
